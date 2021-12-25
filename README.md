@@ -1,4 +1,4 @@
-# fetch_chess_data
+# chess_prediction
 
 ## Table of contents
 * [General info](#general-info)
