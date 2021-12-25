@@ -10,5 +10,6 @@ services:
       - 8888:8888
     volumes:
       - ./data/:/home/jovyan/work/data
+      - ./model/:/home/jovyan/work/model
       - ./notebooks/:/home/jovyan/work/notebooks
     command: start-notebook.sh --ServerApp.password='sha1:dcf97170ed86:b1ce72070dcd762dac904e1cbae93b46b428686f'

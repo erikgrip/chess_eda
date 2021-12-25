@@ -8,3 +8,4 @@ RUN pip3 install -r requirements.txt
 
 VOLUME /data
 VOLUME /notebooks
+VOLUME /model
