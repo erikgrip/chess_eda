@@ -28,11 +28,14 @@ This project can be viewed by opening the Jupyter notebooks in the /notebooks fo
 4. [Feature Exploration](https://github.com/erikgrip/chess_prediction/blob/main/notebooks/4_feature_exploration.ipynb)
 5. [Model Training](https://github.com/erikgrip/chess_prediction/blob/main/notebooks/5_model_training.ipynb)
 
-To run the notebooks though, you need Docker and Docker Compose. See official docs [here](https://docs.docker.com/compose/install/) for instructions on how to install.
-
-On install, simply run:
+To run the notebooks though, you need Docker and Docker Compose. See official docs [here](https://docs.docker.com/compose/install/) for instructions on how to install. With Docker and docker-compose installed, clone the repository using a local terminal.
 ```
-$ docker-compose up
+$ git clone https://github.com/erikgrip/chess_prediction.git
+```
+
+Then navigate into the project folder and run:
+```
+$ docker-compose up -d
 ```
 Once the Jupyter notebook container is running the notebooks are accessed by navigating to http://localhost:8888/lab/tree/work/notebooks in a web browser. Enter 'easy' when promted for a token.
 
