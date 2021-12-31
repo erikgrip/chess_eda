@@ -40,7 +40,7 @@ $ docker-compose up -d
 Once the Jupyter notebook container is running the notebooks are accessed by navigating to http://localhost:8888/lab/tree/work/notebooks in a web browser. Enter 'easy' when promted for a token.
 
 ## Input
-The training data can be found in the /data directory. It was downloaded from [Chess.com](https://www.chess.com) using [fetch_chess_data](https://erikgrip.github.io/fetch_chess_data/).
+The training data can be found in the /data directory. It was downloaded from [Chess.com](https://www.chess.com) using [chess_dashboard](https://erikgrip.github.io/chess_dashboard/).
 The data contains the game history for the player 'gripklo', which is my own alias.
 
 ## Output
